@@ -240,7 +240,7 @@ span {
 
 /* Products section */
 
-.products{
+.products {
     padding-top: 2px;
     padding-bottom: 50px;
     margin-top: 80px;
@@ -264,4 +264,103 @@ span {
     padding-right: 200px;
     width: 200px;
     height: 232px;
+}
+
+/* Banner section */
+
+.banner {
+    background-image: url('../Rectangle_9.png');
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+    height: 200px;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+    margin-top: 5%;
+}
+
+.banner-items {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.banner-header {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner-discription {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.banner-input {
+    margin-top: 20px;
+}
+
+.banner-input-email {
+    text-indent: 5px;
+    border-radius: 8px;
+    background: #FFF;
+    width: 500px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.banner-input-btn {
+    border-radius: 8px;
+    background: #456ede;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+/* Team section */
+.team-t {
+    margin-top: 20px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;    
+    font-weight: 800;
+    line-height: normal;
+}
+
+.team {
+    padding-top: 2px;
+    padding-bottom: 50px;
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.team-hcon {
+    text-align: center;
+    display: flex;
+    margin-left: 150px;
+}
+.team-container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+.team-cont-img{
+    width: 400px;
+    height: 600px;
+}
+.team-card-btn {
+    margin-top: 15px;
+    border-radius: 8px;
+    background: #456ede;
+    display: inline-flex;
+    padding: 10px 100px;
+    align-items: flex-start;
+    gap: 10px;
 }
