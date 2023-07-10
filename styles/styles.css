@@ -324,12 +324,13 @@ span {
 }
 
 /* Team section */
+
 .team-t {
     margin-top: 20px;
     color: #272727;
     text-align: center;
     font-size: 40px;
-    font-style: normal;    
+    font-style: normal;
     font-weight: 800;
     line-height: normal;
 }
@@ -347,14 +348,17 @@ span {
     display: flex;
     margin-left: 150px;
 }
-.team-container{
+
+.team-container {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 8px;
+    margin: 8px;
 }
-.team-cont-img{
+
+.team-cont-img {
     width: 400px;
     height: 600px;
 }
+
 .team-card-btn {
     margin-top: 15px;
     border-radius: 8px;
@@ -363,4 +367,32 @@ span {
     padding: 10px 100px;
     align-items: flex-start;
     gap: 10px;
+}
+/* Footer section */
+footer{
+    background-color: black;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 128px;
+}
+.footer-span{
+    color: #3516e6
+}
+.fotter-tittle{
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 24px;
+        
+}
+.footer-discription{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.footer-copyright{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
