@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+span {
+    color: #E55473;
+}
+
 /* Header section */
 .head-section {
     background-color: #20acd6;
@@ -207,4 +211,57 @@
     padding: 20px 43px;
     align-items: flex-start;
     gap: 10px;
+}
+
+/* Insta section */
+
+.insta-head {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.insta-head-header {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.insta-head-Discription {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* Products section */
+
+.products{
+    padding-top: 2px;
+    padding-bottom: 50px;
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.pro-hblock {
+    text-align: center;
+    display: flex;
+    gap: 20px;
+}
+
+.pro {
+    width: auto;
+    margin-top: 120px;
+    justify-content: center;
+}
+
+.pro-block-img {
+    padding-right: 200px;
+    width: 200px;
+    height: 232px;
 }
