@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header section */
+.head-section {
+    background-color: #20acd6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head-text {
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.head-text-header {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.head-text-discription {
+    margin-top: 10px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.head-image {
+    width: 400px;
+    height: 504px;
+    margin-right: 400px;
+}
+
+.head-text-button {
+    margin-top: 20px;
+    border: 0;
+    border-radius: 5px;
+    background: #0400ff;
+    font-size: 20px;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+/* Fap-head section */
+
+.FaP-head {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.FaP-head-header {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+
+.FaP-head-Discription {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* FaP-Body section */
+
+.FaP-body {
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+}
+
+.FaP-body-block-1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 500px;
+    flex-shrink: 0;
+    margin-left: 100px;
+}
+
+.FaP-body-block-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 500px;
+    flex-shrink: 0;
+    margin-left: 100px;
+}
+
+.FaP-body-block-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 500px;
+    flex-shrink: 0;
+    margin-left: 100px;
+}
+
+.Fap-body-image {
+    margin: 75px 76px 0px 76px;
+}
+
+.Fap-body-image-2 {
+    margin: 25px 76px 0px 76px;
+}
+
+.FaP-body-discription {
+    margin-top: 20px;
+    color: #272727;
+    text-align: center;
+    margin-left: 100px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+/* Advantages section */
+
+.adv-block-text {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-right: 200px;
+}
+
+.advantages {
+    padding-top: 2px;
+    padding-bottom: 50px;
+    margin-top: 128px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background: rgba(39, 39, 39, 0.05);
+
+}
+
+.adv-hblock {
+    text-align: center;
+}
+
+.adv {
+    width: auto;
+    margin-left: 200px;
+    margin-top: 120px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.adv-block-img {
+    padding-right: 200px;
+    width: 20;
+    height: 20;
+}
+
+/* Sales section */
+.Sales-section {
+    margin-top: 100px;
+    background-color: #1b29cc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Sales-text {
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.Sales-text-header {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.Sales-text-discription {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.Sales-text-hbutton {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Sales-text-button {
+    border-radius: 8px;
+    background: #456ede;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+}
